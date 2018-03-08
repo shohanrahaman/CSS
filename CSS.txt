@@ -1,0 +1,77 @@
+			==-----= CSS ==-----=
+
+			color:blue;
+			text-align: center;
+			text-align: justify;
+			text-align: left;
+			text-align: right;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-indent: 50px;
+			letter-spacing: 3px;
+			line-height: 0.8;
+			word-spacing: 10px;
+			text-shadow: 3px 2px red;
+
+			font-family: "Times New Roman", Times, serif;
+			font-style: italic;
+			font-size: 30px;
+			font-weight: bold;
+			font-variant: small-caps;
+
+			border:2px solid Violet;
+			border-style: dotted;
+			border-width: 5px;
+			border-color: red;
+			border-radius: 5px;
+
+			background-color:Tomato;
+			background-image: url("paper.gif");
+			background-repeat: repeat-x;
+			background-repeat: repeat-y;
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-attachment: fixed;
+
+			margin-left:30px;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-right: 150px;
+			margin-left: 80px;
+			margin: 25px 50px 75px 100px;
+
+			padding-top: 50px;
+			padding-right: 30px;
+			padding-bottom: 50px;
+			padding-left: 80px;
+			padding: 25px 50px 75px 100px;
+
+			height: 200px;
+			width: 50%;
+			outline-style: solid;
+			outline-color: red;
+			outline-width: medium;
+			outline-offset: 15px;
+			display: inline-block;
+			display: block;
+			list-style-type: circle;
+			list-style-image: url('sqpurple.gif');
+			list-style-position: outside;
+			visibility: hidden;
+			position: static;
+			position: relative;
+			z-index: -1;
+			overflow: visible;
+			overflow: hidden;
+			overflow-x: hidden; /* Hide horizontal scrollbar */
+			overflow-y: scroll; /* Add vertical scrollbar */
+
+			float: right;
+			float: left;
+			clear: left;
+			opacity: 1.0;
+			filter: alpha(opacity=100);
+			box-sizing: border-box;
+			counter-reset: subsection;
+			counter-increment: section;
+			content: "Section " counter(section) ". ";
