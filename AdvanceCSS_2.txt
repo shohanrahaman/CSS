@@ -1,0 +1,33 @@
+		==--------=++CSS++=-------==
+
+ #Advance CSS :
+	
+	{
+	border: 2px solid black;
+	border-radius : 15px 50px 30px 5px;
+	}
+
+	background: linear-gradient(red, yellow);
+
+	box-shadow: 10px 10px 5px grey;
+
+	text-shadow: 2px 2px red;
+
+	{
+	transform: translate(50px, 100px);
+	transform: rotate(20deg);
+	transform: scale(3,0);
+	}
+	
+	{
+	column-count: 2;
+    	column-gap: 40px;
+   	column-rule: 2px solid lightblue;
+	}
+
+	{
+	//img
+	transition: all 2s;
+	//hover
+	transform: rotate3d(0,1,0,180deg);
+	}
